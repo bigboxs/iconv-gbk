@@ -1,0 +1,38 @@
+{
+  "name": "iconv-gbk",
+  "version": "0.1.0",
+  "description": "iconv 中文 GBK 编码/解码",
+  "keywords": [
+    "gbk",
+    "iconv",
+    "text",
+    "convert",
+    "node"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigboxs/iconv-gbk.git"
+  },
+  "author": {
+    "name": "bigboxs",
+    "email": "bigboxs@outlook.com",
+    "url": "https://github.com/bigboxs/iconv-gbk.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "license": "MIT"
+}
